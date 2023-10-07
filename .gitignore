@@ -8,6 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 pnpm-lock.yaml
 
+auto-imports.d.ts
+.eslintrc-auto-import.json
+
 node_modules
 .DS_Store
 dist
