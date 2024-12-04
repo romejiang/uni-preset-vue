@@ -1,5 +1,9 @@
 import { defineConfig } from 'unocss'
+import { presetUni } from '@uni-helper/unocss-preset-uni'
+
 
 export default defineConfig({
-  // ...UnoCSS选项
+  presets: [
+    presetUni()
+  ]
 })
